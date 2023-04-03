@@ -1,0 +1,10 @@
+Losses:
+      L1Loss: 
+            weight: 1.0
+      StyleGanLoss:
+            weight: 0.1
+            coef:
+                feature_weight: 1.0
+Optimizer:
+        type: Adam
+        beta1: 0.0
